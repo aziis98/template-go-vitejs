@@ -16,5 +16,5 @@ build-frontend:
 
 .PHONY: build-backend
 build-backend:
-	go build -v -o out/backend/server ./cmd/backend
+	go build -v -o out/backend/server ./cmd/server
 
