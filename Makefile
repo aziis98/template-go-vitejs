@@ -8,6 +8,7 @@ all: build-frontend build-backend
 setup:
 	mkdir -p out/frontend
 	mkdir -p out/backend
+	$(NPM) install
 
 .PHONY: build-frontend
 build-frontend:
