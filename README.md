@@ -20,7 +20,7 @@ $ go run -v ./cmd/develop
 
 ```bash shell
 $ npm run build
-$ go run -v ./cmd/backend
+$ go run -v ./cmd/server
 
 # or just run...
 $ make
