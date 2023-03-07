@@ -1,3 +1,5 @@
-import { Masonry } from './components/Masonry.jsx'
-
-export const PageHomepage = ({}) => <main></main>
+export const PageHomepage = ({}) => (
+    <main>
+        <h1>Homepage</h1>
+    </main>
+)

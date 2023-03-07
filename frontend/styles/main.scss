@@ -1,19 +1,18 @@
-// Reset
-
 *,
 *::before,
 *::after {
+    // Good practice
     box-sizing: border-box;
+
+    // For body and headings as typography should be done by hand anyway
     margin: 0;
 
-    font: inherit;
+    // For controls
+    font-family: inherit;
     appearance: none;
 }
 
-input,
-button {
-    background: unset;
-    border: unset;
-    border-radius: 0;
-    outline: none;
+html,
+body {
+    display: contents;
 }
