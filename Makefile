@@ -1,10 +1,17 @@
 
+NPM = npm
+
 .PHONY: all
 all: build-frontend build-backend
 
+.PHONY: setup
+setup:
+	mkdir -p out/frontend
+	mkdir -p out/backend
+
 .PHONY: build-frontend
 build-frontend:
-	npm run build
+	$(NPM) run build
 
 .PHONY: build-backend
 build-backend:
