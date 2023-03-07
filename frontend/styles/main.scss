@@ -1,0 +1,19 @@
+// Reset
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+
+    font: inherit;
+    appearance: none;
+}
+
+input,
+button {
+    background: unset;
+    border: unset;
+    border-radius: 0;
+    outline: none;
+}
